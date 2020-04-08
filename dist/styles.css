@@ -9,16 +9,14 @@ body {
 }
 
 .Header-main {
-  color: #3c484e;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10px;
 }
 
 .Header a {
   text-decoration: none;
-  color: #3c484e;
+  color: #15302C;
 }
 
 .Main {
@@ -121,21 +119,4 @@ body {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
-}
-
-@media (max-width: 780px) {
-    .Characters{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 480px){
-    .Characters{
-        grid-template-columns: 1fr;
-        justify-content: center;
-    }
-
-    .Characters-inner{
-        grid-template-columns: 1fr;
-    }
 }
