@@ -3,7 +3,7 @@ const Header =()=>{
         <div class="Header-main">
             <div class="Header-logo">
                 <h1>
-                    <a href="/">
+                    <a href="https://mariosilvae.github.io/100tifi.co/">
                     100tifi.co
                     </a>
                 </h1>
